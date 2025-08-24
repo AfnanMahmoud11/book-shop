@@ -62,11 +62,27 @@
             <h2>Book <span>Shop</span></h2>
           </div>
           <ul class="main-links">
-            <li><a href="#">home</a></li>
-            <li><a href="#">books</a></li>
-            <li><a href="#">new release</a></li>
-            <li><a href="#">pages</a></li>
-            <li><a href="#">contact</a></li>
+            <li><a class="main-link" href="#">home</a></li>
+            <li><a class="main-link" href="#">books</a></li>
+            <li><a class="main-link" href="#">new release</a></li>
+            <li class="pages">
+              <a class="main-link" href="#">pages</a>
+              <ul class="sub-menu">
+                <div>
+                  <li class="title">Pages</li>
+                  <li><a href="#">Login</a></li>
+                  <li><a href="#">Cart</a></li>
+                  <li><a href="#">Product Details</a></li>
+                  <li><a href="#">Product Checkout</a></li>
+                </div>
+                <div>
+                  <li class="title">Blog</li>
+                  <li><a href="#">Element</a></li>
+                  <li><a href="#">Blog Details</a></li>
+                </div>
+              </ul>
+            </li>
+            <li><a class="main-link" href="#">contact</a></li>
           </ul>
           <ul class="options">
             <li>
@@ -95,7 +111,7 @@
     </header>
     <!--===========end header========== -->
     <!-- ==========start hero section==== -->
-    <div class="hero-section">
+    <section class="hero-section">
       <div class="">
         <div class="hero-content">
           <div class="hero-text">
@@ -113,7 +129,511 @@
           </div>
         </div>
       </div>
-    </div>
+    </section>
     <!-- ==========end hero section==== -->
+    <!-- ===start category section==== -->
+    <section class="ctaegory">
+      <div class="container">
+        <div class="cards">
+          <div class="card">
+            <div class="image-container">
+              <img src="images/category/cat1.png" alt="category" />
+            </div>
+            <div class="overlay">
+              <div class="overlay-text">
+                <p>higher education</p>
+                <a href="#">shop now</a>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="image-container">
+              <img src="images/category/cat2.png" alt="category" />
+            </div>
+            <div class="overlay">
+              <div class="overlay-text">
+                <p>management books</p>
+                <a href="#">shop now</a>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="image-container">
+              <img src="images/category/cat3.png" alt="category" />
+            </div>
+            <div class="overlay">
+              <div class="overlay-text">
+                <p>engineering books</p>
+                <a href="#">shop now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ====end category section===== -->
+    <!-- ====strat books section===== -->
+    <section class="products">
+      <div class="container">
+        <div class="products-header">
+          <p>new release books</p>
+          <div class="links">
+            <a href="#">scientific</a>
+            <a href="#">literary</a>
+            <a href="#" class="active">novels</a>
+            <a href="#">short stories </a>
+          </div>
+        </div>
+        <div class="cards">
+          <i class="arrow arrow-left fa-solid fa-angle-left"></i>
+          <div class="card">
+            <div class="img-container">
+              <img
+                class="front-image"
+                src="images/books/av1.jpg"
+                alt="book cover"
+              />
+              <img
+                class="back-image"
+                src="images/books/av2.jpg"
+                alt="book cover"
+              />
+              <div class="icons">
+                <i class="fa-solid fa-cart-plus"></i>
+                <i class="fa-regular fa-heart"></i>
+                <i class="fa-solid fa-magnifying-glass-plus"></i>
+              </div>
+            </div>
+            <div class="book-info">
+              <a href="#">Avengers</a>
+              <div class="price">
+                <span class="descound">$ 88.00</span>
+                <span class="price-del">$ 100.00</span>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="img-container">
+              <img
+                class="front-image"
+                src="images/books/harry2.webp"
+                alt="book cover"
+              />
+              <img
+                class="back-image"
+                src="images/books/harry1.jpg"
+                alt="book cover"
+              />
+              <div class="icons">
+                <i class="fa-solid fa-cart-plus"></i>
+                <i class="fa-regular fa-heart"></i>
+                <i class="fa-solid fa-magnifying-glass-plus"></i>
+              </div>
+            </div>
+            <div class="book-info">
+              <a href="#">Harry Potter</a>
+              <div class="price">
+                <span class="descound">$ 110.00</span>
+                <span class="price-del">$ 150.00</span>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="img-container">
+              <img
+                class="front-image"
+                src="images/books/جارتين2.png"
+                alt="book cover"
+              />
+              <img
+                class="back-image"
+                src="images/books/جارتين1.jpg"
+                alt="book cover"
+              />
+              <div class="icons">
+                <i class="fa-solid fa-cart-plus"></i>
+                <i class="fa-regular fa-heart"></i>
+                <i class="fa-solid fa-magnifying-glass-plus"></i>
+              </div>
+            </div>
+            <div class="book-info">
+              <a href="#">قواعد جارتين</a>
+              <div class="price">
+                <span class="descound">$ 70.00</span>
+                <span class="price-del">$ 85.00</span>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="img-container">
+              <img
+                class="front-image"
+                src="images/books/lord2.jpg"
+                alt="book cover"
+              />
+              <img
+                class="back-image"
+                src="images/books/lord1.jpg"
+                alt="book cover"
+              />
+              <div class="icons">
+                <i class="fa-solid fa-cart-plus"></i>
+                <i class="fa-regular fa-heart"></i>
+                <i class="fa-solid fa-magnifying-glass-plus"></i>
+              </div>
+            </div>
+            <div class="book-info">
+              <a href="#">The Lord of the Rings</a>
+              <div class="price">
+                <span class="descound">$ 170.00</span>
+                <span class="price-del">$ 190.00</span>
+              </div>
+            </div>
+          </div>
+          <i class="arrow arrow-right fa-solid fa-angle-right"></i>
+        </div>
+      </div>
+    </section>
+    <!-- ====end books section===== -->
+    <!-- ==strat testimonials section== -->
+    <section class="testimonials">
+      <i class="arrow arrow-left fa-solid fa-angle-left"></i>
+      <div class="testimonials-content container">
+        <h2>Customer Testimonial</h2>
+        <p class="idea">
+          This library contains many wonderful books that take you to a unique
+          world of more excitement and more valuable information.
+        </p>
+        <div class="client-content">
+          <div class="image-container">
+            <img src="images/client/client1.png" alt=" client" />
+          </div>
+          <div class="client-info">
+            <h4>mary cruiser</h4>
+            <p>student</p>
+          </div>
+        </div>
+      </div>
+      <i class="arrow arrow-right fa-solid fa-angle-right"></i>
+    </section>
+    <!-- ==end testimonials section== -->
+    <!-- ==start best seler section== -->
+    <section class="best-seler">
+      <div class="best-seler-content container">
+        <h2>best seller</h2>
+        <div class="cards">
+          <i class="arrow arrow-left fa-solid fa-angle-left"></i>
+          <div class="card">
+            <div class="img-container">
+              <img
+                class="front-image"
+                src="images/best-seller/book1.png"
+                alt="book cover"
+              />
+              <img
+                class="back-image"
+                src="images/best-seller/book1-1.jfif"
+                alt="book cover"
+              />
+              <div class="icons">
+                <i class="fa-solid fa-cart-plus"></i>
+                <i class="fa-regular fa-heart"></i>
+                <i class="fa-solid fa-magnifying-glass-plus"></i>
+              </div>
+            </div>
+            <div class="book-info">
+              <a href="#">Simple way of piece life</a>
+              <div class="price">
+                <span class="descound">$ 40.00</span>
+                <span class="price-del">$ 100.00</span>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="img-container">
+              <img
+                class="front-image"
+                src="images/best-seller/book2.png"
+                alt="book cover"
+              />
+              <img
+                class="back-image"
+                src="images/best-seller/book2.png"
+                alt="book cover"
+              />
+              <div class="icons">
+                <i class="fa-solid fa-cart-plus"></i>
+                <i class="fa-regular fa-heart"></i>
+                <i class="fa-solid fa-magnifying-glass-plus"></i>
+              </div>
+            </div>
+            <div class="book-info">
+              <a href="#">Great travel at desert</a>
+              <div class="price">
+                <span class="descound">$ 38.00</span>
+                <span class="price-del">$ 90.00</span>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="img-container">
+              <img
+                class="front-image"
+                src="images/best-seller/book3.png"
+                alt="book cover"
+              />
+              <img
+                class="back-image"
+                src="images/best-seller/book3-3.jfif"
+                alt="book cover"
+              />
+              <div class="icons">
+                <i class="fa-solid fa-cart-plus"></i>
+                <i class="fa-regular fa-heart"></i>
+                <i class="fa-solid fa-magnifying-glass-plus"></i>
+              </div>
+            </div>
+            <div class="book-info">
+              <a href="#">The lady beauty Scarlett </a>
+              <div class="price">
+                <span class="descound">$ 45.00</span>
+                <span class="price-del">$ 110.00</span>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="img-container">
+              <img
+                class="front-image"
+                src="images/best-seller/book4.png"
+                alt="book cover"
+              />
+              <img
+                class="back-image"
+                src="images/best-seller/book4-4.jfif"
+                alt="book cover"
+              />
+              <div class="icons">
+                <i class="fa-solid fa-cart-plus"></i>
+                <i class="fa-regular fa-heart"></i>
+                <i class="fa-solid fa-magnifying-glass-plus"></i>
+              </div>
+            </div>
+            <div class="book-info">
+              <a href="#">Once upon a time</a>
+              <div class="price">
+                <span class="descound">$ 35.00</span>
+                <span class="price-del">$ 85.00</span>
+              </div>
+            </div>
+          </div>
+          <i class="arrow arrow-right fa-solid fa-angle-right"></i>
+        </div>
+      </div>
+    </section>
+    <!-- ==end best seler section== -->
+    <!-- ==end Latest Articles section== -->
+    <section class="latest-articles">
+      <div class="latest-articles-content container">
+        <h2>latest articles</h2>
+        <div class="cards">
+          <div class="card">
+            <div class="image-container">
+              <img src="images/latest-news/new1.png" alt="news" />
+            </div>
+            <p class="date">2 aug, 2021</p>
+            <h5>Reading books always makes the moments happy</h5>
+            <p class="text">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta,
+              nam!..
+            </p>
+            <a href="#">read more</a>
+          </div>
+          <div class="card">
+            <div class="image-container">
+              <img src="images/latest-news/new2.png" alt="news" />
+            </div>
+            <p class="date">2 aug, 2021</p>
+            <h5>Reading books always makes the moments happy</h5>
+            <p class="text">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta,
+              nam!..
+            </p>
+            <a href="#">read more</a>
+          </div>
+          <div class="card">
+            <div class="image-container">
+              <img src="images/latest-news/new3.png" alt="news" />
+            </div>
+            <p class="date">2 aug, 2021</p>
+            <h5>Reading books always makes the moments happy</h5>
+            <p class="text">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta,
+              nam!..
+            </p>
+            <a href="#">read more</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ==end Latest Articles section== -->
+    <!-- ==start features section== -->
+    <section class="features">
+      <div class="features-content container">
+        <div class="cards">
+          <div class="card">
+            <div class="icon">
+              <i class="fas fa-truck gray"></i>
+              <i class="fas fa-truck blue"></i>
+            </div>
+            <h3>Fast & Free Delivery</h3>
+            <p>Free delivery on all orders</p>
+          </div>
+          <div class="card">
+            <div class="icon">
+              <i class="fas fa-money-check-alt gray"></i>
+              <i class="fas fa-money-check-alt blue"></i>
+            </div>
+            <h3>Secure Payment</h3>
+            <p>Free delivery on all orders</p>
+          </div>
+          <div class="card">
+            <div class="icon">
+              <i class="fas fa-money-bill-wave gray"></i>
+              <i class="fas fa-money-bill-wave blue"></i>
+            </div>
+            <h3>Money Back Guarantee</h3>
+            <p>Free delivery on all orders /p></p>
+          </div>
+          <div class="card">
+            <div class="icon">
+              <i class="fas fa-user-clock gray"></i>
+              <i class="fas fa-user-clock blue"></i>
+            </div>
+            <h3>Online Support</h3>
+            <p>Free delivery on all orders</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ==end features section==== -->
+    <!-- ==start footer section==== -->
+    <footer>
+      <div class="container">
+        <div class="top-footer">
+          <div class="subsc">
+            <h2>subscribe newsletter</h2>
+            <p>Subscribe newsletter to get 5% on all products.</p>
+          </div>
+          <div class="email">
+            <input type="email" placeholder="Enter Your Email" />
+            <button class="email-btn">Subscribe</button>
+          </div>
+          <div class="social-media">
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-youtube"></i></a>
+          </div>
+        </div>
+        <div class="midel-footer">
+          <div class="logo-container">
+            <div class="img-container">
+              <img src="images/logo.png" alt="logo" />
+            </div>
+            <h2>Book <span>Shop</span></h2>
+          </div>
+          <div class="Section">
+            <h3>Scientific</h3>
+            <ul>
+              <li>
+                <a href="#">mathematics</a>
+              </li>
+              <li>
+                <a href="#">Physics</a>
+              </li>
+              <li>
+                <a href="#">biology</a>
+              </li>
+              <li>
+                <a href="#">Engineering</a>
+              </li>
+              <li>
+                <a href="#">Computer science</a>
+              </li>
+            </ul>
+          </div>
+          <div class="Section">
+            <h3>literary</h3>
+            <ul>
+              <li>
+                <a href="#">World Literature</a>
+              </li>
+              <li>
+                <a href="#">Arabic literature</a>
+              </li>
+              <li>
+                <a href="#">Texts and thoughts</a>
+              </li>
+              <li>
+                <a href="#">plays</a>
+              </li>
+              <li>
+                <a href="#">poetry</a>
+              </li>
+            </ul>
+          </div>
+          <div class="Section">
+            <h3>novels</h3>
+            <ul>
+              <li>
+                <a href="#">Historical novel</a>
+              </li>
+              <li>
+                <a href="#">Fantasy novel</a>
+              </li>
+              <li>
+                <a href="#">Romantic novel</a>
+              </li>
+              <li>
+                <a href="#">Realistic novel</a>
+              </li>
+              <li>
+                <a href="#">Detective novel</a>
+              </li>
+            </ul>
+          </div>
+          <div class="Section">
+            <h3>short stories</h3>
+            <ul>
+              <li>
+                <a href="#">Historical novel</a>
+              </li>
+              <li>
+                <a href="#">Fantasy novel</a>
+              </li>
+              <li>
+                <a href="#">Romantic novel</a>
+              </li>
+              <li>
+                <a href="#">Realistic novel</a>
+              </li>
+              <li>
+                <a href="#">Detective novel</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="bottom-footer">
+          <p>
+            Copyright &copy; 2023 All rights reserved | This template is made
+            with
+            <i class="heart fa-solid fa-heart"></i> by
+            <span class="text"><a href="#">Colorlib</a></span>
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- ==end footer section==== -->
   </body>
 </html>
