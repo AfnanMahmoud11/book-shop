@@ -176,6 +176,9 @@ body {
   color: #111111;
   font-weight: 400;
 }
+.midel-nav .main-links .main-link:hover {
+  color: #f00;
+}
 .midel-nav .main-links .main-link::before {
   border-width: 0 2px;
   width: 94%;
@@ -218,14 +221,14 @@ body {
   opacity: 1;
   transform: scale(1, 1);
 }
-.midel-nav .options li:last-child .main-link::before {
+.midel-nav .options li:last-child a::before {
   content: "2";
   position: absolute;
   font-size: 15px;
   width: 23px;
   height: 23px;
   border-radius: 50%;
-  background-color: #ed553b;
+  background-color: #f00;
   color: #ffffff;
   display: flex;
   align-items: center;
@@ -235,8 +238,10 @@ body {
   transform: translate(-50%, 0);
   transition: all 0.3s ease-in-out;
 }
-
-.midel-nav .options li:last-child .main-link:hover::before {
+.midel-nav .options li a:hover {
+  color: #f00;
+}
+.midel-nav .options li:last-child a:hover::before {
   transform: translate(-50%, -5px);
 }
 /* =============bottom nav style================= */
@@ -378,11 +383,11 @@ body {
   font-size: 17px;
   font-weight: bold;
   border-bottom: 2px solid #f00;
-  transition: all 0.3s ease-in;
+  transition: all 0.1s ease-in;
   text-transform: capitalize;
 }
 .ctaegory .cards .card .overlay a:hover {
-  letter-spacing: 2px;
+  letter-spacing: 1px;
 }
 .ctaegory .cards .card .overlay .overlay-text {
   margin-bottom: -30px;
@@ -979,7 +984,7 @@ footer .bottom-footer .text:hover {
     color: rgb(124, 18, 18);
   }
   50% {
-    transform: scale(1.6);
+    transform: scale(1.5);
     color: #f00;
   }
   75% {
